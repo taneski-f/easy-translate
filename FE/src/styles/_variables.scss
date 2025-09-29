@@ -1,0 +1,76 @@
+// Theme-aware SCSS variables
+// These work with Tailwind's dark: classes and provide consistent theming
+
+// Main colors (consistent across themes)
+$brand-primary-light: #2563eb; // blue-600
+$brand-primary-dark: #6366f1; // indigo-500
+$brand-secondary: #0ea5e9; // sky-500
+$brand-accent: #22d3ee; // cyan-400
+
+// Surface colors
+$surface-primary-light: #ffffff;
+$surface-primary-dark: #1e293b; // slate-800
+$surface-secondary-light: #f8fafc; // slate-50
+$surface-secondary-dark: #334155; // slate-700
+
+// Background colors
+$bg-app-light: #f1f5f9; // slate-100
+$bg-app-dark: #0f172a; // slate-900
+$bg-card-light: #ffffff;
+$bg-card-dark: #1e293b; // slate-800
+
+// Text colors
+$text-primary-light: #0f172a; // slate-900
+$text-primary-dark: #f1f5f9; // slate-100
+$text-secondary-light: #475569; // slate-600
+$text-secondary-dark: #94a3b8; // slate-400
+$text-muted-light: #64748b; // slate-500
+$text-muted-dark: #64748b; // slate-500
+
+// Border colors
+$border-light: #e2e8f0; // slate-200
+$border-dark: #475569; // slate-600
+$border-subtle-light: #f1f5f9; // slate-100
+$border-subtle-dark: #334155; // slate-700
+
+// Status colors (consistent across themes)
+$success: #10b981; // emerald-500
+$warning: #f59e0b; // amber-500
+$error: #ef4444; // red-500
+$info: #3b82f6; // blue-500
+
+// Spacing scale helpers (unchanged)
+$space-1: 0.25rem;
+$space-2: 0.5rem;
+$space-3: 0.75rem;
+$space-4: 1rem;
+$space-6: 1.5rem;
+$space-8: 2rem;
+
+// CSS Custom Properties (reactive to theme changes)
+// Updated automatically when .dark class is toggled
+:root {
+  --color-bg-app: #{$bg-app-light};
+  --color-bg-card: #{$bg-card-light};
+  --color-surface-primary: #{$surface-primary-light};
+  --color-surface-secondary: #{$surface-secondary-light};
+  --color-text-primary: #{$text-primary-light};
+  --color-text-secondary: #{$text-secondary-light};
+  --color-text-muted: #{$text-muted-light};
+  --color-border: #{$border-light};
+  --color-border-subtle: #{$border-subtle-light};
+  --color-brand-primary: #{$brand-primary-light};
+}
+
+html.dark {
+  --color-bg-app: #{$bg-app-dark};
+  --color-bg-card: #{$bg-card-dark};
+  --color-surface-primary: #{$surface-primary-dark};
+  --color-surface-secondary: #{$surface-secondary-dark};
+  --color-text-primary: #{$text-primary-dark};
+  --color-text-secondary: #{$text-secondary-dark};
+  --color-text-muted: #{$text-muted-dark};
+  --color-border: #{$border-dark};
+  --color-border-subtle: #{$border-subtle-dark};
+  --color-brand-primary: #{$brand-primary-dark};
+}

@@ -1,0 +1,141 @@
+{
+  "app": {
+    "title": "EasyTranslate",
+    "workspace": "Mit Arbejdsområde"
+  },
+  "common": {
+    "loading": "Indlæser...",
+    "create": "Opret",
+    "cancel": "Annuller",
+    "close": "Luk",
+    "save": "Gem",
+    "delete": "Slet",
+    "edit": "Rediger",
+    "retry": "Prøv igen",
+    "showDetails": "Vis detaljer",
+    "hideDetails": "Skjul detaljer"
+  },
+  "sections": {
+    "folders": {
+      "title": "Dine Mapper",
+      "empty": "Ingen mapper endnu. Opret din første mappe for at organisere dine oversættelser.",
+      "loading": "Indlæser mapper...",
+      "new": "Ny Mappe",
+      "create": "Opret Mappe"
+    },
+    "projects": {
+      "title": "Arbejdsområdesprojekter",
+      "empty": "Ingen projekter endnu. Opret dit første projekt for at begynde at oversætte.",
+      "loading": "Indlæser projekter...",
+      "new": "Nyt Projekt",
+      "create": "Opret Projekt",
+      "inFolder": "Projekter i denne mappe"
+    }
+  },
+  "sorting": {
+    "sortBy": "Sorter efter:",
+    "name": "Navn",
+    "status": "Status",
+    "price": "Pris",
+    "projects": "Projekter",
+    "created": "Oprettet",
+    "updated": "Opdateret",
+    "tooltips": {
+      "ascending": "Stigende",
+      "descending": "Faldende",
+      "nameAsc": "Stigende (A-Z)",
+      "nameDesc": "Faldende (Z-A)",
+      "projectsAsc": "Stigende (Færrest projekter først)",
+      "projectsDesc": "Faldende (Flest projekter først)",
+      "createdAsc": "Stigende (Ældste først)",
+      "createdDesc": "Faldende (Nyeste først)",
+      "updatedAsc": "Stigende (Ældste opdateringer først)",
+      "updatedDesc": "Faldende (Seneste opdateringer først)",
+      "statusAsc": "Stigende (Status A-Z)",
+      "statusDesc": "Faldende (Status Z-A)",
+      "priceAsc": "Stigende (Laveste pris først)",
+      "priceDesc": "Faldende (Højeste pris først)"
+    }
+  },
+  "forms": {
+    "folderName": "Mappenavn",
+    "projectName": "Projektnavn",
+    "enterFolderName": "Indtast mappenavn",
+    "enterProjectName": "Indtast projektnavn",
+    "required": "{field} er påkrævet",
+    "maxLength": "Skal være {count} tegn eller færre"
+  },
+  "metadata": {
+    "created": "Oprettet",
+    "updated": "Opdateret",
+    "price": "Pris",
+    "payment": "Betaling"
+  },
+  "errors": {
+    "title": "Noget gik galt",
+    "message": "Der opstod en uventet fejl. Prøv igen.",
+    "technicalDetails": "Tekniske detaljer",
+    "failedToLoad": "Kunne ikke indlæse {item}. Prøv igen.",
+    "failedToCreate": "Kunne ikke oprette {item}. Prøv igen.",
+    "network": "Tjek venligst din internetforbindelse og prøv igen",
+    "unauthorized": "Godkendelse mislykkedes. Log venligst ind igen",
+    "forbidden": "Du har ikke tilladelse til at udføre denne handling",
+    "notFound": "Den anmodede ressource blev ikke fundet",
+    "tooManyRequests": "For mange anmodninger. Vent et øjeblik og prøv igen",
+    "serverError": "Serverfejl. Prøv igen senere",
+    "serviceUnavailable": "Tjeneste midlertidigt utilgængelig. Prøv igen senere",
+    "timeout": "Anmodning fik timeout. Prøv igen",
+    "invalidRequest": "Ugyldig anmodning. Tjek venligst dit input og prøv igen"
+  },
+  "project": {
+    "subtitle": "{source} → {count} sprog | {source} → {count} sprog",
+    "unknownLanguage": "Ukendt",
+    "count": "{count} projekt | {count} projekter"
+  },
+  "folder": {
+    "openAction": "Åbn {name} mappe med {count} projekt | Åbn {name} mappe med {count} projekter"
+  },
+  "folderDetails": {
+    "emptyTitle": "Ingen projekter i denne mappe endnu",
+    "emptySubtitle": "Projekter vises her, når du tilføjer dem til denne mappe"
+  },
+  "navigation": {
+    "backToFolders": "Dine Mapper"
+  },
+  "settings": {
+    "theme": "Tema",
+    "language": "Sprog",
+    "switchTo": "Skift til {language}"
+  },
+  "status": {
+    "completed": "Færdig",
+    "in_progress": "I gang",
+    "pending": "Afventer",
+    "cancelled": "Annulleret",
+    "failed": "Mislykkedes",
+    "draft": "Kladde",
+    "review": "Under gennemgang",
+    "approved": "Godkendt",
+    "unknown": "Ukendt"
+  },
+  "search": {
+    "placeholder": "Søg...",
+    "folders": "Søg mapper",
+    "projects": "Søg projekter",
+    "clear": "Ryd søgning"
+  },
+  "toast": {
+    "status": "Status",
+    "projectCreated": "Projekt oprettet",
+    "projectFailed": "Oprettelse af projekt mislykkedes"
+  },
+  "http": {
+    "401": "Uautoriseret",
+    "403": "Forbudt",
+    "404": "Ikke fundet",
+    "422": "Ugyldig anmodning",
+    "500": "Serverfejl",
+    "503": "Tjenesten er utilgængelig",
+    "timeout": "Anmodningen tog for lang tid"
+  }
+}

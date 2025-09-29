@@ -1,0 +1,45 @@
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules and build output
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+.vite
+
+# Playwright e2e test results
+tests/e2e/test-results/
+
+# Cypress (if present)
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+
+# Mac system files
+.DS_Store

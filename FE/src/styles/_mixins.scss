@@ -1,0 +1,78 @@
+// Global SCSS mixins
+// Import variables to use in mixins
+@use './variables' as *;
+
+// Layout mixins
+@mixin truncate() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin center-flex($gap: 0) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $gap;
+}
+
+@mixin surface-card() {
+  background-color: var(--color-surface-primary);
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem; // rounded-xl
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+@mixin surface-elevated() {
+  background-color: var(--color-surface-primary);
+  border: 1px solid var(--color-border-subtle);
+  box-shadow:
+    0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+// Theme-aware text mixins
+@mixin text-primary() {
+  color: var(--color-text-primary);
+}
+
+@mixin text-secondary() {
+  color: var(--color-text-secondary);
+}
+
+@mixin text-muted() {
+  color: var(--color-text-muted);
+}
+
+@mixin button-base() {
+  @include center-flex($space-2);
+  padding: $space-2 $space-4;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.15s ease;
+  border: 1px solid var(--color-border);
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  }
+}
+
+// Status mixins
+@mixin status-success() {
+  color: $success;
+  background-color: rgb(16 185 129 / 0.1);
+  border-color: rgb(16 185 129 / 0.2);
+}
+
+@mixin status-warning() {
+  color: $warning;
+  background-color: rgb(245 158 11 / 0.1);
+  border-color: rgb(245 158 11 / 0.2);
+}
+
+@mixin status-error() {
+  color: $error;
+  background-color: rgb(239 68 68 / 0.1);
+  border-color: rgb(239 68 68 / 0.2);
+}

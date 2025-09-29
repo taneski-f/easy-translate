@@ -1,0 +1,141 @@
+{
+  "app": {
+    "title": "EasyTranslate",
+    "workspace": "My Workspace"
+  },
+  "common": {
+    "loading": "Loading...",
+    "create": "Create",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "retry": "Try Again",
+    "showDetails": "Show Details",
+    "hideDetails": "Hide Details"
+  },
+  "sections": {
+    "folders": {
+      "title": "Your Folders",
+      "empty": "No folders yet. Create your first folder to organize your translations.",
+      "loading": "Loading folders...",
+      "new": "New Folder",
+      "create": "Create Folder"
+    },
+    "projects": {
+      "title": "Workspace Projects",
+      "empty": "No projects yet. Create your first project to start translating.",
+      "loading": "Loading projects...",
+      "new": "New Project",
+      "create": "Create Project",
+      "inFolder": "Projects in this folder"
+    }
+  },
+  "sorting": {
+    "sortBy": "Sort by:",
+    "name": "Name",
+    "status": "Status",
+    "price": "Price",
+    "projects": "Projects",
+    "created": "Created",
+    "updated": "Updated",
+    "tooltips": {
+      "ascending": "Ascending",
+      "descending": "Descending",
+      "nameAsc": "Ascending (A-Z)",
+      "nameDesc": "Descending (Z-A)",
+      "projectsAsc": "Ascending (Fewest projects first)",
+      "projectsDesc": "Descending (Most projects first)",
+      "createdAsc": "Ascending (Oldest first)",
+      "createdDesc": "Descending (Newest first)",
+      "updatedAsc": "Ascending (Oldest updates first)",
+      "updatedDesc": "Descending (Recent updates first)",
+      "statusAsc": "Ascending (Status A-Z)",
+      "statusDesc": "Descending (Status Z-A)",
+      "priceAsc": "Ascending (Lowest price first)",
+      "priceDesc": "Descending (Highest price first)"
+    }
+  },
+  "forms": {
+    "folderName": "Folder Name",
+    "projectName": "Project Name",
+    "enterFolderName": "Enter folder name",
+    "enterProjectName": "Enter project name",
+    "required": "{field} is required",
+    "maxLength": "Must be {count} characters or fewer"
+  },
+  "metadata": {
+    "created": "Created",
+    "updated": "Updated",
+    "price": "Price",
+    "payment": "Payment"
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "message": "An unexpected error occurred. Please try again.",
+    "technicalDetails": "Technical Details",
+    "failedToLoad": "Failed to load {item}. Please try again.",
+    "failedToCreate": "Failed to create {item}. Please try again.",
+    "network": "Please check your internet connection and try again",
+    "unauthorized": "Authentication failed. Please log in again",
+    "forbidden": "You do not have permission to perform this action",
+    "notFound": "The requested resource was not found",
+    "tooManyRequests": "Too many requests. Please wait a moment and try again",
+    "serverError": "Server error. Please try again later",
+    "serviceUnavailable": "Service temporarily unavailable. Please try again later",
+    "timeout": "Request timed out. Please try again",
+    "invalidRequest": "Invalid request. Please check your input and try again"
+  },
+  "project": {
+    "subtitle": "{source} → {count} language | {source} → {count} languages",
+    "unknownLanguage": "Unknown",
+    "count": "{count} project | {count} projects"
+  },
+  "folder": {
+    "openAction": "Open {name} folder with {count} project | Open {name} folder with {count} projects"
+  },
+  "folderDetails": {
+    "emptyTitle": "No projects inside this folder yet",
+    "emptySubtitle": "Projects will appear here when you add them to this folder"
+  },
+  "navigation": {
+    "backToFolders": "Your Folders"
+  },
+  "settings": {
+    "theme": "Theme",
+    "language": "Language",
+    "switchTo": "Switch to {language}"
+  },
+  "status": {
+    "completed": "Completed",
+    "in_progress": "In Progress",
+    "pending": "Pending",
+    "cancelled": "Cancelled",
+    "failed": "Failed",
+    "draft": "Draft",
+    "review": "Under Review",
+    "approved": "Approved",
+    "unknown": "Unknown"
+  },
+  "search": {
+    "placeholder": "Search...",
+    "folders": "Search folders",
+    "projects": "Search projects",
+    "clear": "Clear search"
+  },
+  "toast": {
+    "status": "Status",
+    "projectCreated": "Project created",
+    "projectFailed": "Project creation failed"
+  },
+  "http": {
+    "401": "Unauthorized",
+    "403": "Forbidden",
+    "404": "Not found",
+    "422": "Invalid request",
+    "500": "Server error",
+    "503": "Service unavailable",
+    "timeout": "Request timed out"
+  }
+}
